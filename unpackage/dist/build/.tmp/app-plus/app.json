@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/home",
+    "pages/liaomeitaolulist",
+    "pages/searchpage",
+    "pages/info",
+    "pages/adding",
+    "pages/baike",
+    "pages/baikelist",
+    "pages/dingdan",
+    "pages/fenxiao",
+    "pages/jifen",
+    "pages/kecheng",
+    "pages/kechenglist",
+    "pages/kechengneirong",
+    "pages/liaomeishizhan",
+    "pages/liaomeishizhanlist",
+    "pages/liaomeitaolu",
+    "pages/phonenumber",
+    "pages/qingganbaike",
+    "pages/shoucang",
+    "pages/shouquan",
+    "pages/sijiao",
+    "pages/sijiaolist",
+    "pages/tequan",
+    "pages/tuweiqinghua",
+    "pages/tuweiqinghualist",
+    "pages/viewganhuo",
+    "pages/viewhtml",
+    "pages/viewimage",
+    "pages/vip",
+    "pages/weixin",
+    "pages/wenda",
+    "pages/wendalist",
+    "pages/xingxiangjianshe",
+    "pages/xingxiangjianshelist",
+    "pages/xinliceshi",
+    "pages/xinliceshilist",
+    "components/baike",
+    "components/biaoqing",
+    "components/huashu",
+    "components/loading",
+    "components/placeholder",
+    "components/tab"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "恋爱联盟",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#FFF"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff4500",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home",
+        "text": "首页",
+        "iconPath": "static/shouye.png",
+        "selectedIconPath": "static/shouye_active.png"
+      },
+      {
+        "pagePath": "pages/liaomeitaolulist",
+        "text": "套路",
+        "iconPath": "static/wenzhang.png",
+        "selectedIconPath": "static/wenzhang_active.png"
+      },
+      {
+        "pagePath": "pages/searchpage",
+        "text": "搜索",
+        "iconPath": "static/search.png",
+        "selectedIconPath": "static/search_active.png"
+      },
+      {
+        "pagePath": "pages/info",
+        "text": "个人",
+        "iconPath": "static/geren.png",
+        "selectedIconPath": "static/geren_active.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "恋爱联盟",
+  "compilerVersion": "2.0.1"
+}

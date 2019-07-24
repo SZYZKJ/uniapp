@@ -169,8 +169,8 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
   export default {
     data() {
       return {
@@ -211,6 +211,7 @@
         this.miaoshu = json.miaoshu;
         this.searchicon = json.searchicon;
         this.tuijian = json.tuijian;
+        this.$forceUpdate();
       },
       async getShouyeman() {
         let unionid = uni.getStorageSync('unionid') || '';
@@ -225,6 +226,7 @@
         this.xinliceshi = json.xinliceshi;
         this.gengduotext = json.gengduotext;
         this.gengduoicon = json.gengduoicon;
+        this.$forceUpdate();
       },
       async checkUnionid() {
         let userinfo = uni.getStorageSync('userInfo');

@@ -1,0 +1,58 @@
+.liaomeishizhanlist {
+  background: #ffffff;
+}
+.liaomeishizhanlist .wenzhang {
+  background: #ffffff;
+  width: 92%;
+  margin-left: 4%;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #efefef;
+}
+.liaomeishizhanlist .wenzhang .kuai {
+  padding-left: 16rpx;
+  padding-right: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.liaomeishizhanlist .wenzhang .kuai .textkuang {
+  width: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.liaomeishizhanlist .wenzhang .kuai .textkuang .title {
+  color: #333;
+  font-size: 28rpx;
+  width: 420rpx;
+}
+.liaomeishizhanlist .wenzhang .kuai .textkuang .laiyuan {
+  font-size: 20rpx;
+}
+.liaomeishizhanlist .wenzhang .kuai .image {
+  margin-left: 16rpx;
+  height: 138rpx;
+  width: 250rpx;
+}
+.liaomeishizhanlist .textend {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  text-align: center;
+}
+

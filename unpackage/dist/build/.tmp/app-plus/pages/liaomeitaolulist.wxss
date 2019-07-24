@@ -1,0 +1,54 @@
+.liaomeitaolulist {
+  background: #ffffff;
+}
+.liaomeitaolulist .tou {
+  height: 1rpx;
+}
+.kuai {
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+}
+.kuai .biaoti {
+  font-weight: bolder;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 30rpx;
+  color: #000;
+}
+.kuai .biaoti .kuai_flag {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 5rpx;
+  height: 28rpx;
+  background-color: #000000;
+}
+.kuai .kuai_list {
+  color: #000000;
+}
+.kuai .kuai_list .weui-btn {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0rpx;
+  margin-bottom: 20rpx;
+  margin-left: 2.5%;
+  width: 30%;
+  height: 62rpx;
+  line-height: 62rpx;
+  background: #ffffff;
+  font-size: 28rpx;
+  padding: 0rpx;
+}
+

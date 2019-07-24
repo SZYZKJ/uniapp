@@ -1,0 +1,16 @@
+.viewganhuo {
+  background: #FFFFFF;
+}
+.viewganhuo .title {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-weight: bolder;
+  font-size: 38rpx;
+  color: #000000;
+}
+.viewganhuo .video {
+  width: 100%;
+}
+

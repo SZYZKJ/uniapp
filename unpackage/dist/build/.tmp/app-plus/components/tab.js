@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/tab"],{aa49:function(a,e,o){"use strict";o("38a7");var n=u(o("b0ce")),t=u(o("5077"));function u(a){return a&&a.__esModule?a:{default:a}}Page((0,n.default)(t.default))}},[["aa49","common/runtime","common/vendor"]]]);

@@ -1,0 +1,29 @@
+.tuweiqinghualist {
+  margin: 0rpx;
+  padding-bottom: 20rpx;
+  background: rgba(0, 0, 0, 0.1);
+}
+.tuweiqinghualist .tou {
+  margin: 0rpx;
+  height: 1rpx;
+  width: 100%;
+}
+.tuweiqinghualist .tuweiqinghua {
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  background: #ffffff;
+  color: #000;
+}
+.tuweiqinghualist .textend {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  text-align: center;
+}
+

@@ -51,13 +51,13 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
-  import tab from "./components/tab";
-  import huashu from "./components/huashu";
-  import biaoqing from "./components/biaoqing";
-  import baike from "./components/baike";
-  import placeholder from "./components/placeholder";
+  import api from 'common/api';
+  import tip from 'common/tip';
+  import tab from "components/tab";
+  import huashu from "components/huashu";
+  import biaoqing from "components/biaoqing";
+  import baike from "components/baike";
+  import placeholder from "components/placeholder";
   export default {
     components: {
       tab: tab,

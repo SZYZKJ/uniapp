@@ -1,0 +1,152 @@
+.header {
+  background: #ffffff;
+  background: url(https://www.lianaizhuli.com/geren/gerenbeijing.png);
+  background-size: 750rpx 240rpx;
+  height: 240rpx;
+}
+.header .headcontent {
+  position: fixed;
+  height: 300rpx;
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 80rpx;
+  padding-top: 20rpx;
+  background: #ffffff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  border: 1rpx solid #efefef;
+}
+.header .headcontent .imagekuang {
+  margin-top: 55rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 100%;
+}
+.header .headcontent .imagekuang .banimage {
+  width: 200rpx;
+  height: 100rpx;
+}
+.header .headcontent .wenhouyu {
+  position: fixed;
+  top: 0rpx;
+  left: 60rpx;
+  color: #ffffff;
+}
+.header .headercontent0 {
+  width: 100%;
+  margin-left: 200rpx;
+  color: #000000;
+}
+.header .headercontent3 {
+  margin-left: 20rpx;
+  width: 45rpx;
+  height: 35rpx;
+}
+.header .headercontent1 {
+  margin-left: 200rpx;
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ff7e00;
+}
+.header .headercontent1 .headercontent2 {
+  margin-left: 50rpx;
+  color: #000000;
+}
+.header .headercontent1 .headercontent2 .jifen {
+  color: #ff7e00;
+}
+.userinfo-avatar {
+  position: fixed;
+  top: 50rpx;
+  left: 60rpx;
+  overflow: hidden;
+  width: 150rpx;
+  height: 150rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.tequanming {
+  margin-left: 50rpx;
+  color: #000000;
+}
+.info_block {
+  background: #ffffff;
+  padding-top: 180rpx;
+  padding-bottom: 180rpx;
+}
+.info_block .item {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-color: #ffffff;
+  background: #ffffff;
+  padding-left: 0rpx;
+  border-bottom: 1px solid #efefef;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #000000;
+  margin-left: 3%;
+  width: 94%;
+  -webkit-border-radius: 0rpx;
+          border-radius: 0rpx;
+}
+.info_block .item_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.info_block .text {
+  width: 640rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 25rpx;
+}
+.info_block .text .text1 {
+  font-size: 26rpx;
+  color: #000;
+}
+.info_block .text .text2 {
+  margin-top: 40rpx;
+  width: 20rpx;
+  height: 20rpx;
+}
+.info_block .item_img {
+  width: 30rpx;
+  height: 28rpx;
+}
+.info_block .tip {
+  color: #ffffff;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  margin-left: 60rpx;
+}
+

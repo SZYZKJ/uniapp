@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"shouquan { height: 100%; background: #fff; text-align: center; padding-top: ",[0,100],"; }\n.",[1],"shouquan .",[1],"authorize-icon { width: ",[0,128],"; height: ",[0,128],"; display: block; margin: 0 auto; padding-bottom: ",[0,10],"; }\n.",[1],"shouquan .",[1],"auth-item { padding: ",[0,5]," 0; }\n.",[1],"shouquan .",[1],"btn-authorize { margin: ",[0,100]," ",[0,50],"; }\n",],undefined,{path:"./pages/shouquan.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/shouquan.wxml') } }));

@@ -1,0 +1,2 @@
+<import src="./liaomeitaolulist.vue.wxml" />
+    <template is="842f9ed0" data="{{ ...$root['0'], $root }}"/>

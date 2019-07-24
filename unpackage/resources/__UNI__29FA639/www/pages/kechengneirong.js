@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"kechengneirong { background: #ffffff; padding-left: ",[0,30],"; padding-right: ",[0,30],"; color: #333; word-break: break-all; text-align: justify; padding-bottom: ",[0,100],"; }\n.",[1],"title { color: #333; font-size: ",[0,40],"; }\n",],undefined,{path:"./pages/kechengneirong.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/kechengneirong.wxml') } }));

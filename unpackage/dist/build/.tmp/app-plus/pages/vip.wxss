@@ -1,0 +1,72 @@
+.container {
+  text-align: center;
+  margin-top: 0rpx;
+  background: #ffffff;
+}
+.zhifu {
+  background: #09BB07;
+  color: #ffffff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-top: 28rpx;
+  width: 60%;
+}
+.tequan {
+  margin-top: 20rpx;
+  color: #000000;
+}
+.tequanneirong {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  text-align: left;
+}
+.tequanneirong .tequantext {
+  color: #000000;
+}
+.vip {
+  padding-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.active {
+  background: rgba(9, 187, 7, 0.05);
+  color: #09BB07;
+}
+.viptext {
+  text-align: center;
+  padding: 0rpx;
+}
+.try {
+  padding: 0rpx;
+  width: 46%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  border: 1rpx solid;
+}
+.month {
+  padding: 0rpx;
+  width: 46%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  border: 1rpx solid;
+}
+.year {
+  padding: 0rpx;
+  width: 46%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  border: 1rpx solid;
+}
+.lifelong {
+  padding: 0rpx;
+  width: 46%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  border: 1rpx solid;
+}
+

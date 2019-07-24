@@ -1,0 +1,11 @@
+.adding {
+  background: #fff;
+  padding-top: 300rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #000000;
+}
+.futrue {
+  margin-top: 300rpx;
+}
+

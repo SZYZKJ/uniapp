@@ -632,7 +632,115 @@
 		{
 			"path": "pages/xinliceshilist",
 			"style": {
-				"navigationBarTitleText": "Simple-store",
+				"navigationBarTitleText": "心理测试",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/baike",
+			"style": {
+				"navigationBarTitleText": "百科",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/biaoqing",
+			"style": {
+				"navigationBarTitleText": "表情",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/huashu",
+			"style": {
+				"navigationBarTitleText": "话术",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/loading",
+			"style": {
+				"navigationBarTitleText": "loading",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/placeholder",
+			"style": {
+				"navigationBarTitleText": "placeholder",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/tab",
+			"style": {
+				"navigationBarTitleText": "tab",
 				"navigationBarTextStyle": "white",
 				"enablePullDownRefresh": true,
 				"app-plus": {

@@ -22,8 +22,8 @@
 </template>
 
 <script>
-    import tip from './api/tip';
-    import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
     export default {
         data() {
             return {

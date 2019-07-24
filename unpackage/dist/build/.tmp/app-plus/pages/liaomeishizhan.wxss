@@ -1,0 +1,41 @@
+.liaomeishizhan {
+  background: #FFFFFF;
+}
+.liaomeishizhan .title {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-weight: bolder;
+  font-size: 38rpx;
+  color: #000000;
+}
+.liaomeishizhan .image {
+  width: 100%;
+}
+.liaomeishizhan .dikuang {
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.liaomeishizhan .dikuang .shoucangkuang {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.liaomeishizhan .dikuang .shoucangkuang .shoucang {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 100rpx;
+}
+

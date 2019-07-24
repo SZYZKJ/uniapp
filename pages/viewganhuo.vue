@@ -7,8 +7,8 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
   // const TxvContext = requirePlugin("tencentvideo");
   // let txvContext = TxvContext.getTxvContext('txv1');
   export default {

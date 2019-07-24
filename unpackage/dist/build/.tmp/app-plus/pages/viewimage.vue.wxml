@@ -1,0 +1,1 @@
+<template name="d8fed43e"><view class="_view Md8fed43e viewimage"><text selectable="true" class="_text Md8fed43e title">{{title}}</text><image class="_image Md8fed43e image" src="{{url}}" mode="widthFix"></image></view></template>

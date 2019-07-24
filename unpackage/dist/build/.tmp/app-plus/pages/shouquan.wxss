@@ -1,0 +1,20 @@
+.shouquan {
+  height: 100%;
+  background: #fff;
+  text-align: center;
+  padding-top: 100rpx;
+}
+.shouquan .authorize-icon {
+  width: 128rpx;
+  height: 128rpx;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10rpx;
+}
+.shouquan .auth-item {
+  padding: 5rpx 0;
+}
+.shouquan .btn-authorize {
+  margin: 100rpx 50rpx;
+}
+

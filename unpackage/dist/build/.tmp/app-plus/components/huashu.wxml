@@ -1,0 +1,2 @@
+<import src="./huashu.vue.wxml" />
+    <template is="46f1d10a" data="{{ ...$root['0'], $root }}"/>

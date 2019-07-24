@@ -1,0 +1,2 @@
+<import src="./kecheng.vue.wxml" />
+    <template is="7429f00a" data="{{ ...$root['0'], $root }}"/>

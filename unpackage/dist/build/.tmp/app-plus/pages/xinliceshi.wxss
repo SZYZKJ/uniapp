@@ -1,0 +1,166 @@
+.xinliceshi {
+  color: #000;
+}
+.shouxian {
+  top: 0;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 30rpx;
+}
+.kaishiceshi {
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  background: #ff7e00;
+  line-height: 100rpx;
+  color: #ffffff;
+  width: 90%;
+  text-align: center;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  height: 100rpx;
+}
+.timu {
+  width: 90%;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  background: #fff;
+  margin-left: 5%;
+}
+.title {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #fff;
+  text-align: center;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 40rpx;
+  color: #000;
+}
+.timutitle {
+  padding: 30rpx;
+  font-size: 30rpx;
+  color: #000;
+}
+.zixiang {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100rpx;
+  line-height: 100rpx;
+}
+.zixiang .xuanxiang {
+  width: 96%;
+  color: #000;
+}
+.zixiang .xuanze0 {
+  width: 25rpx;
+  height: 25rpx;
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  border: 5rpx solid #ff7e00;
+}
+.zixiang .xuanze1 {
+  background: #ff7e00;
+  width: 30rpx;
+  height: 30rpx;
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+}
+.wanchenglv {
+  margin-top: 30rpx;
+  color: #000;
+  text-align: center;
+}
+.image {
+  margin-left: 2%;
+  width: 96%;
+  height: auto;
+}
+.bigtext {
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  color: #000;
+  text-align: left;
+  margin-left: 5%;
+  width: 90%;
+}
+.text {
+  margin-top: 30rpx;
+  color: #000;
+  text-align: left;
+  margin-left: 5%;
+  width: 90%;
+}
+.tijiaokuang {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.shangyiti {
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #ffffff;
+  background: #ff7e00;
+  text-align: center;
+}
+.tijiao {
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #ffffff;
+  background: #ff7e00;
+  text-align: center;
+}
+.dikuang {
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.dikuang .shoucangkuang {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.dikuang .shoucangkuang .shoucang {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 100rpx;
+}
+

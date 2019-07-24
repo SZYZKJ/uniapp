@@ -1,0 +1,6 @@
+<import src="/components/tab.vue.wxml" />
+<import src="/components/placeholder.vue.wxml" />
+<import src="/components/huashu.vue.wxml" />
+<import src="/components/biaoqing.vue.wxml" />
+<import src="/components/baike.vue.wxml" />
+

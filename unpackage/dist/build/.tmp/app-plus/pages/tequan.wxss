@@ -1,0 +1,43 @@
+.tequan {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 0rpx;
+  background: #ffffff;
+}
+.kaitongtext {
+  margin-top: 50rpx;
+  margin-left: 200rpx;
+  margin-right: 200rpx;
+  color: #000000;
+}
+.vip {
+  height: 60rpx;
+  background: #ff7e00;
+  color: #ffffff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-top: 100rpx;
+  padding-top: 16rpx;
+  width: 60%;
+  margin-left: 20%;
+}
+.tequankuang {
+  padding-top: 100rpx;
+  color: #000000;
+}
+.tequanming {
+  padding-top: 50rpx;
+  color: #ff7e00;
+}
+.tequanneirong {
+  margin-top: 20rpx;
+  margin-left: 138rpx;
+  text-align: left;
+}
+.tequanneirong .tequantext {
+  color: #000000;
+}
+

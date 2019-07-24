@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "课程内容",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FD575C",
+    "offset": "60px"
+  }
+}

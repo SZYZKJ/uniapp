@@ -1,0 +1,1 @@
+<template name="6e0041c6"><view class="_view M6e0041c6 swiper-tab"><view wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'6e0041c6-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabList}}" wx:for-index="index" wx:for-item="item" class="_view M6e0041c6 {{currentTab == index ? 'swiper-tab-list active' : 'swiper-tab-list'}}">{{item}}</view></view></template>

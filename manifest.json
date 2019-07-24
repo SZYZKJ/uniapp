@@ -1,6 +1,6 @@
 {
-    "name" : "Simple-store",
-    "appid" : "__UNI__1BD8BFE",
+    "name" : "恋爱联盟",
+    "appid" : "__UNI__29FA639",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -55,6 +55,11 @@
         "appid" : "",
         "setting" : {
             "urlCheck" : true
+        }
+    },
+    "h5" : {
+        "devServer" : {
+            "https" : true
         }
     }
 }

@@ -3,33 +3,33 @@
         <view class="container">
             <view class="vip">
                 <button v-bind:class="currentTab==1 ? 'try active' : 'try'" @tap="swichtab(1)">
-                                                <view v-bind:class="currentTab==1 ? 'viptext active' : 'viptext'">月会员(1个月)</view>
-                                                <view v-bind:class="currentTab==1 ? 'viptext active' : 'viptext'">￥29.00</view>
-                                            </button>
+                                                    <view v-bind:class="currentTab==1 ? 'viptext active' : 'viptext'">月会员(1个月)</view>
+                                                    <view v-bind:class="currentTab==1 ? 'viptext active' : 'viptext'">￥29.00</view>
+                                                </button>
                 <button v-bind:class="currentTab==2 ? 'month active' : 'month'" @tap="swichtab(2)">
-                                                <view v-bind:class="currentTab==2 ? 'viptext active' : 'viptext'">年会员(1年)</view>
-                                                <view v-bind:class="currentTab==2 ? 'viptext active' : 'viptext'">￥199.00</view>
-                                            </button>
+                                                    <view v-bind:class="currentTab==2 ? 'viptext active' : 'viptext'">年会员(1年)</view>
+                                                    <view v-bind:class="currentTab==2 ? 'viptext active' : 'viptext'">￥199.00</view>
+                                                </button>
             </view>
             <view class="vip">
                 <button v-bind:class="currentTab==3 ? 'yearactive' : 'year'" @tap="swichtab(3)">
-                                                <view v-bind:class="currentTab==3 ? 'viptext active' : 'viptext'">私教1个月(送年会员)</view>
-                                                <view v-bind:class="currentTab==3 ? 'viptext active' : 'viptext'">￥499.00</view>
-                                            </button>
+                                                    <view v-bind:class="currentTab==3 ? 'viptext active' : 'viptext'">私教1个月(送年会员)</view>
+                                                    <view v-bind:class="currentTab==3 ? 'viptext active' : 'viptext'">￥499.00</view>
+                                                </button>
                 <button v-bind:class="currentTab==4 ? 'lifelong active' : 'lifelong'" @tap="swichtab(4)">
-                                                <view v-bind:class="currentTab==4 ? 'viptext active' : 'viptext'">私教3个月(送年会员)</view>
-                                                <view v-bind:class="currentTab==4 ? 'viptext active' : 'viptext'">￥999.00</view>
-                                            </button>
+                                                    <view v-bind:class="currentTab==4 ? 'viptext active' : 'viptext'">私教3个月(送年会员)</view>
+                                                    <view v-bind:class="currentTab==4 ? 'viptext active' : 'viptext'">￥999.00</view>
+                                                </button>
             </view>
             <view class="vip">
                 <button v-bind:class="currentTab==5 ? 'year active' : 'year'" @tap="swichtab(5)">
-                                                <view v-bind:class="currentTab==5 ? 'viptext active' : 'viptext'">私教1年(送终身会员)</view>
-                                                <view v-bind:class="currentTab==5 ? 'viptext active' : 'viptext'">￥2999.00</view>
-                                            </button>
+                                                    <view v-bind:class="currentTab==5 ? 'viptext active' : 'viptext'">私教1年(送终身会员)</view>
+                                                    <view v-bind:class="currentTab==5 ? 'viptext active' : 'viptext'">￥2999.00</view>
+                                                </button>
                 <button v-bind:class="currentTab==6 ? 'lifelong active' : 'lifelong'" @tap="swichtab(6)">
-                                                <view v-bind:class="currentTab==6 ? 'viptext active' : 'viptext'">联盟会员(含私教终身)</view>
-                                                <view v-bind:class="currentTab==6 ? 'viptext active' : 'viptext'">￥4999.00</view>
-                                            </button>
+                                                    <view v-bind:class="currentTab==6 ? 'viptext active' : 'viptext'">联盟会员(含私教终身)</view>
+                                                    <view v-bind:class="currentTab==6 ? 'viptext active' : 'viptext'">￥4999.00</view>
+                                                </button>
             </view>
             <button class="zhifu" @tap="weixinzhifu">立即支付</button>
             <view class="tequan">
@@ -87,8 +87,8 @@
 </template>
 
 <script>
-    import tip from './api/tip';
-    import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
     export default {
         data() {
             return {

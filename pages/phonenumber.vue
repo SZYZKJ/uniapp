@@ -11,66 +11,66 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
   export default {
     data() {
       return {
-          loginres: {},
+        loginres: {},
+      }
+    },
+    methods: {
+      async getPhoneNumber(e) {
+        let unionid = uni.getStorageSync('unionid') || '';
+        if (unionid == '') {
+          uni.navigateTo({
+            url: "/pages/shouquan"
+          });
+          return false;
         }
-      },
-      methods: {
-          async getPhoneNumber(e) {
-            let unionid = uni.getStorageSync('unionid') || '';
-            if (unionid == '') {
-              uni.navigateTo({
-                url: "/pages/shouquan"
-              });
-              return false;
-            }
-            if (e.detail.errMsg == 'getPhoneNumber:ok') {
-              if (this.loginres.code) {
-                const rlt = await api.getPhoneNumber({
-                  unionid: unionid,
-                  jsCode: this.loginres.code,
-                  encryptedData: e.detail.encryptedData,
-                  iv: e.detail.iv,
+        if (e.detail.errMsg == 'getPhoneNumber:ok') {
+          if (this.loginres.code) {
+            const rlt = await api.getPhoneNumber({
+              unionid: unionid,
+              jsCode: this.loginres.code,
+              encryptedData: e.detail.encryptedData,
+              iv: e.detail.iv,
+            })
+            uni.setStorageSync('userInfo', e.detail.userInfo);
+            if (rlt.data.unionid) {
+              let data = rlt.data;
+              if (data.unionid) {
+                uni.setStorageSync('unionid', data.unionid);
+                uni.setStorageSync('phoneNumber', 1);
+                uni.navigateBack({
+                  delta: 1
                 })
-                uni.setStorageSync('userInfo', e.detail.userInfo);
-                if (rlt.data.unionid) {
-                  let data = rlt.data;
-                  if (data.unionid) {
-                    uni.setStorageSync('unionid', data.unionid);
-                    uni.setStorageSync('phoneNumber', 1);
-                    uni.navigateBack({
-                      delta: 1
-                    })
-                  }
-                } else {
-                  let res = await uni.showModal({
-                    title: 'appid有误',
-                    content: '授权失败'
-                  })
-                }
               }
             } else {
-              uni.showModal({
-                title: '友情提示',
-                content: '尊敬的用户，为确保对您的服务质量，请允许我们获取您的手机号码',
+              let res = await uni.showModal({
+                title: 'appid有误',
+                content: '授权失败'
               })
             }
-          },
-        },
-        async onLoad() {
-          this.loginres = await uni.login();
-        },
-        onShareAppMessage() {
-          return {
-            title: '恋爱联盟',
-            path: '/pages/home',
-          };
+          }
+        } else {
+          uni.showModal({
+            title: '友情提示',
+            content: '尊敬的用户，为确保对您的服务质量，请允许我们获取您的手机号码',
+          })
         }
+      },
+    },
+    async onLoad() {
+      this.loginres = await uni.login();
+    },
+    onShareAppMessage() {
+      return {
+        title: '恋爱联盟',
+        path: '/pages/home',
+      };
     }
+  }
 </script>
 
 <style lang="less">

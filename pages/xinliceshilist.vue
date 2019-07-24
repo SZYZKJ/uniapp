@@ -22,8 +22,8 @@
 </template>
 
 <script>
-	import tip from './api/tip';
-	import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
 	export default {
 		data() {
 			return {
@@ -156,7 +156,6 @@
 	.xinliceshilist {
 		background: #ffffff;
 	}
-
 	.tab-h {
 		z-index: 99;
 		position: fixed;
@@ -167,14 +166,12 @@
 		height: 80rpx;
 		width: 100%;
 		font-size: 28rpx;
-
 		.tab-item {
 			color: #000;
 			margin-left: 20rpx;
 			margin-right: 20rpx;
 			display: inline;
 		}
-
 		.tab-itemactive {
 			color: #ff7e00;
 			margin-left: 20rpx;
@@ -184,12 +181,10 @@
 			border-bottom: 6rpx solid #ff7e00;
 		}
 	}
-
 	.jiange {
 		margin-top: 80rpx;
 		border-top: 2px solid #efefef;
 	}
-
 	.wenzhang {
 		background: #ffffff;
 		width: 92%;
@@ -197,30 +192,25 @@
 		padding-top: 20rpx;
 		padding-bottom: 20rpx;
 		border-bottom: 1px solid #efefef;
-
 		.kuai {
 			padding-left: 16rpx;
 			padding-right: 16rpx;
 			display: flex;
 			justify-content: space-between;
-
 			.textkuang {
 				width: 80%;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
-
 				.title {
 					color: #333;
 					font-size: 28rpx;
 					width: 420rpx;
 				}
-
 				.laiyuan {
 					font-size: 20rpx;
 				}
 			}
-
 			.image {
 				margin-left: 16rpx;
 				height: 138rpx;
@@ -228,7 +218,6 @@
 			}
 		}
 	}
-
 	.textend {
 		padding-top: 30rpx;
 		padding-bottom: 30rpx;

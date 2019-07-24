@@ -1,0 +1,1 @@
+<template name="55c372b8"><view class="_view M55c372b8 empty-placeholder" wx:if="{{show}}"><image class="_image M55c372b8 icon-xl" src="../static/kong.png"></image></view></template>

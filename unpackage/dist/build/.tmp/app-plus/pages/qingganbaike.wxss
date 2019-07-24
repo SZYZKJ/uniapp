@@ -1,0 +1,106 @@
+.qingganbaike {
+  color: #000000;
+  background: #efefef;
+}
+.tubiao {
+  background: #ffffff;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.tubiao .box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+.tubiao .box .image {
+  width: 70rpx;
+  height: 60rpx;
+}
+.tubiao .box .title {
+  font-size: 26rpx;
+}
+.kuai {
+  background: #ffffff;
+  margin-top: 4rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.kuai .hang {
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-bottom: 30rpx;
+}
+.kuai .hang .image {
+  width: 137rpx;
+  height: 40rpx;
+}
+.kuai .neikuai .bigbox {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.kuai .neikuai .bigbox .box {
+  margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 340rpx;
+  text-align: left;
+}
+.kuai .neikuai .bigbox .box .image-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.kuai .neikuai .bigbox .box .image-group .image {
+  width: 100%;
+  height: 200rpx;
+}
+.kuai .neikuai .bigbox .box .image-group .image-tip {
+  position: absolute;
+  font-size: 36rpx;
+  color: #ffffff;
+}
+.kuai .neikuai .bigbox .box .text {
+  text-align: left;
+  font-size: 26rpx;
+}
+

@@ -1,0 +1,2 @@
+<import src="./xinliceshilist.vue.wxml" />
+    <template is="5c69a6eb" data="{{ ...$root['0'], $root }}"/>

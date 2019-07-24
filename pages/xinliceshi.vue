@@ -55,8 +55,8 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
   export default {
     data() {
       return {
@@ -255,7 +255,7 @@
     },
     onUnload() {
       var pages = getCurrentPages();
-      if (pages.length == 1&&pages[0].route!='pages/searchpage') {
+      if (pages.length == 1 && pages[0].route != 'pages/searchpage') {
         uni.switchTab({
           url: "/pages/home"
         })

@@ -1,0 +1,1 @@
+<template name="7db0e2ed"><view class="_view M7db0e2ed loadMoreGif" wx:if="{{show}}"><image src="../../static/loadding.gif" class="_image M7db0e2ed"></image></view></template>

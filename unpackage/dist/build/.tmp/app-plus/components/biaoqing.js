@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/biaoqing"],{e899:function(e,o,n){"use strict";n("38a7");var a=t(n("b0ce")),c=t(n("c078"));function t(e){return e&&e.__esModule?e:{default:e}}Page((0,a.default)(c.default))}},[["e899","common/runtime","common/vendor"]]]);

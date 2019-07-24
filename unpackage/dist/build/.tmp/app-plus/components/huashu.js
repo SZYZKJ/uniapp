@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/huashu"],{"9b17":function(e,o,n){"use strict";n("38a7");var u=t(n("b0ce")),a=t(n("204d"));function t(e){return e&&e.__esModule?e:{default:e}}Page((0,u.default)(a.default))}},[["9b17","common/runtime","common/vendor"]]]);

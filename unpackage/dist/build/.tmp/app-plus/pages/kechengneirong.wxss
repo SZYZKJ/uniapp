@@ -1,0 +1,14 @@
+.kechengneirong {
+  background: #ffffff;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  color: #333;
+  word-break: break-all;
+  text-align: justify;
+  padding-bottom: 100rpx;
+}
+.title {
+  color: #333;
+  font-size: 40rpx;
+}
+

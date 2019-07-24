@@ -1,0 +1,94 @@
+.liaomeitaolu {
+  text-align: justify;
+  background: rgba(0, 0, 0, 0.1);
+}
+.liaomeitaolu .textend {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  text-align: center;
+}
+.lilunList {
+  padding-top: 20rpx;
+  width: 100%;
+}
+.lilunList .secondkuai {
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  background: #ffffff;
+}
+.lilunList .secondkuai .duihua .biaoti {
+  width: 100%;
+  white-space: pre-wrap;
+  margin-bottom: 10rpx;
+  font-weight: bolder;
+  font-size: 30rpx;
+  color: #333;
+}
+.lilunList .secondkuai .duihua .nv {
+  line-height: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+}
+.lilunList .secondkuai .duihua .nan {
+  line-height: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+}
+.lilunList .secondkuai .duihua .item_img {
+  padding-top: 10rpx;
+  padding-right: 10rpx;
+  width: 35rpx;
+  height: 35rpx;
+}
+.lilunList .secondkuai .duihua .textkuang {
+  width: 100%;
+}
+.lilunList .secondkuai .duihua .text {
+  font-size: 28rpx;
+  color: #333;
+}
+.lilunList .secondkuai .duihua .vip {
+  margin-top: 20rpx;
+  text-align: center;
+}
+.lilunList .secondkuai .duihua .vip .item_img {
+  padding: 0rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  width: 368rpx;
+  height: 248rpx;
+}
+.lilunList .secondkuai .thirdkuai .contentkuai {
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-top: 20rpx;
+}
+.lilunList .secondkuai .thirdkuai .contentkuai .content {
+  width: 100%;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+}
+.lilunList .secondkuai .thirdkuai .chakankuai {
+  margin-top: 20rpx;
+  text-align: center;
+}
+.lilunList .secondkuai .thirdkuai .chakankuai .chakan {
+  font-weight: bolder;
+  font-size: 30rpx;
+}
+

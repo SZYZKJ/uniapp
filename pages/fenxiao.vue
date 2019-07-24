@@ -130,8 +130,8 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
   export default {
     data() {
       return {
@@ -276,7 +276,6 @@
           unionid: unionid,
         });
         this.fenxiao = json.data;
-		console.log(this.fenxiao);
         if (unionid == '') {
           unionid = '';
           uni.navigateTo({

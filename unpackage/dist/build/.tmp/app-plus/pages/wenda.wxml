@@ -1,0 +1,2 @@
+<import src="./wenda.vue.wxml" />
+    <template is="7fd98568" data="{{ ...$root['0'], $root }}"/>

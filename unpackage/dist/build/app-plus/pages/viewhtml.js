@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"webview { overflow: inherit; width: ",[0,750],"; }\n",],undefined,{path:"./pages/viewhtml.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/viewhtml.wxml') } }));

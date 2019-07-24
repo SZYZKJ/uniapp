@@ -1,0 +1,1 @@
+<template name="5c503c04"><view class="_view M5c503c04 kechengneirong"><view class="_view M5c503c04 title">{{kecheng.title}}</view><rich-text nodes="{{kecheng.content}}" class="_view M5c503c04"></rich-text></view></template>

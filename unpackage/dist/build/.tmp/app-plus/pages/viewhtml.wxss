@@ -1,0 +1,5 @@
+.webview {
+  overflow: inherit;
+  width: 750rpx;
+}
+

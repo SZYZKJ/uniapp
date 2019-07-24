@@ -58,14 +58,14 @@
         </view>
       </navigator>
       <button class="item" open-type="contact" session-from="weapp" plain="false">
-                                      <view class="item_content">
-                                        <image class="item_img" src="../static/zaixiankefu.png"/>
-                                        <view class="text">
-                                          <view class="text1">在线客服</view>
-                                          <image class="text2" src="../static/jiantou.png" />
+                                        <view class="item_content">
+                                          <image class="item_img" src="../static/zaixiankefu.png"/>
+                                          <view class="text">
+                                            <view class="text1">在线客服</view>
+                                            <image class="text2" src="../static/jiantou.png" />
+                                          </view>
                                         </view>
-                                      </view>
-                                    </button>
+                                      </button>
       <navigator class="item" url="/pages/weixin">
         <view class="item_content">
           <image class="item_img" src="../static/daoshiweixin.png" />
@@ -89,8 +89,8 @@
 </template>
 
 <script>
-  import tip from './api/tip';
-  import api from './api/api';
+  import api from 'common/api';
+  import tip from 'common/tip';
   export default {
     data() {
       return {

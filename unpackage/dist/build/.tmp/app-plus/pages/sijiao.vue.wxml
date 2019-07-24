@@ -1,0 +1,1 @@
+<template name="74ba64d8"><view class="_view M74ba64d8 sijiao"><image class="_image M74ba64d8 image" src="{{sijiao.url}}" mode="widthFix"></image><navigator class="_navigator M74ba64d8 kuang" url="/pages/vip"><view class="_view M74ba64d8 text">立即学习</view></navigator></view></template>

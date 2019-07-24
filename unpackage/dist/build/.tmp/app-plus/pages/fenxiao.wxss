@@ -1,0 +1,187 @@
+.fenxiao {
+  background: #ffffff;
+  color: #000;
+  word-break: break-all;
+  padding-bottom: 80rpx;
+}
+.tixian {
+  margin: 20rpx;
+  color: #333;
+}
+.tixian .jinshi {
+  color: #FF0000;
+}
+.tixianjine {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.tixianjine .tixianclour {
+  color: #333;
+}
+.tixianjine .jinekuang {
+  width: 250rpx;
+}
+.dianjitixian {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 200rpx;
+}
+.dingdankuang {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  background: #efefef;
+}
+.dingdankuang .dingdanminkuang {
+  padding-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding-bottom: 20rpx;
+}
+.dingdankuang .dingdanminkuang .guding {
+  color: #000000;
+}
+.dingdankuang .dingdanminkuang .xiangqing {
+  padding-left: 50rpx;
+}
+.loadingkuang {
+  text-align: center;
+}
+.loading {
+  width: 50rpx;
+  height: 50rpx;
+}
+.wenankuag {
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  margin-right: 30rpx;
+  color: #333;
+}
+.wenankuag .wenan {
+  margin-top: 30rpx;
+  color: #ff7e00;
+}
+.banner {
+  width: 100%;
+}
+.shouhang {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 60rpx;
+}
+.userinfo-avatar {
+  margin-right: 30rpx;
+  width: 60rpx;
+  height: 60rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  overflow: hidden;
+}
+.headercontent0 {
+  color: #333;
+  font-size: 26rpx;
+  margin-right: 30rpx;
+}
+.jibie {
+  margin-right: 30rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border: 1px solid #ff7e00;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  color: #ff7e00;
+}
+.shuju {
+  margin-top: 20rpx;
+  width: 96%;
+  margin-left: 2%;
+  background: #d8b980;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.shuju .minkuang {
+  font-size: 24rpx;
+  width: 35%;
+  color: #fff;
+  padding-left: 80rpx;
+  height: 120rpx;
+}
+.shuju .minkuang .shuzhi {
+  padding-top: 20rpx;
+}
+.shuju .minkuang .kedianji {
+  background: #09bb07;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.haibaokuang {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.haibaokuang .haibao {
+  margin: 23rpx;
+  border: 1rpx solid #ff7e00;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+.tab-h {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  height: 80rpx;
+  font-size: 28px;
+  border-bottom: 2rpx solid #dfdfdf;
+}
+.tab-h .tab-item {
+  color: #000;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: inline;
+}
+.tab-h .tab-itemactive {
+  color: #ff7e00;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  display: inline;
+  padding-bottom: 6rpx;
+  border-bottom: 6rpx solid #ff7e00;
+}
+.libiao {
+  margin-bottom: 50rpx;
+}
+

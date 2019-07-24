@@ -1,0 +1,138 @@
+.searchpage {
+  background: #ffffff;
+}
+.search {
+  width: 100%;
+  top: 0rpx;
+  position: fixed;
+  z-index: 99;
+  background: #ffffff;
+}
+.search .serch_content {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 300rpx;
+          border-radius: 300rpx;
+  color: #333;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 6rpx 20rpx;
+  height: 58rpx;
+}
+.search .serch_content .search_input {
+  line-height: 58rpx;
+  font-size: 28rpx;
+  width: 100%;
+}
+.search .serch_content .cha {
+  width: 58rpx;
+  height: 58rpx;
+}
+.search .serch_content .cha .chaclearn {
+  margin-top: 10rpx;
+}
+.search .tab {
+  margin-top: 6rpx;
+  height: 66rpx;
+}
+.showdata {
+  padding-top: 136rpx;
+  background: rgba(0, 0, 0, 0.1);
+}
+.showdata .textend {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  text-align: center;
+}
+.recommend {
+  padding-top: 88rpx;
+}
+.recommend .bigkuai {
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  padding-top: 20rpx;
+  background: rgba(0, 0, 0, 0.1);
+}
+.recommend .kuai {
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  display: inline-block;
+}
+.recommend .kuai .biaoti {
+  font-weight: bolder;
+  padding-left: 20rpx;
+  text-align: left;
+  color: #999999;
+  font-size: 30rpx;
+}
+.recommend .kuai .weui-btn {
+  margin-left: 2%;
+  margin-top: 6rpx;
+  margin-bottom: 0rpx;
+  padding: 0rpx;
+  text-align: center;
+  width: 22.5%;
+  height: 62rpx;
+  background: #ffffff;
+  font-size: 28rpx;
+}
+.recommend .hiskuai {
+  width: 100%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  display: inline;
+}
+.recommend .hiskuai .biaoti {
+  font-weight: bolder;
+  padding-left: 20rpx;
+  text-align: left;
+  color: #999999;
+  font-size: 30rpx;
+}
+.recommend .hiskuai .weui-btn {
+  margin-left: 2%;
+  margin-top: 6rpx;
+  margin-bottom: 0rpx;
+  padding: 0rpx;
+  text-align: center;
+  width: 22.5%;
+  height: 62rpx;
+  background: #ffffff;
+  font-size: 28rpx;
+}
+.recommend .if_his {
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  margin-left: 20rpx;
+  text-align: left;
+  font-size: 28rpx;
+  color: #999999;
+}
+.recommend .btn_box {
+  width: 228rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #999999;
+}
+.recommend .minkuai {
+  height: 1rpx;
+}
+

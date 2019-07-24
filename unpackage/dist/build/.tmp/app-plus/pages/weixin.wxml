@@ -1,0 +1,2 @@
+<import src="./weixin.vue.wxml" />
+    <template is="7b552e37" data="{{ ...$root['0'], $root }}"/>

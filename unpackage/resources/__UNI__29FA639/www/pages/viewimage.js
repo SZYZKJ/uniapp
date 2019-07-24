@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"viewimage { background: #FFFFFF; }\n.",[1],"viewimage .",[1],"title { padding-left: ",[0,20],"; padding-right: ",[0,20],"; padding-top: ",[0,20],"; padding-bottom: ",[0,20],"; font-weight: bolder; font-size: ",[0,38],"; color: #000000; }\n.",[1],"viewimage .",[1],"image { width: 100%; }\n",],undefined,{path:"./pages/viewimage.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/viewimage.wxml') } }));

@@ -1,0 +1,2 @@
+<import src="./tequan.vue.wxml" />
+    <template is="763a3b17" data="{{ ...$root['0'], $root }}"/>

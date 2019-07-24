@@ -1,0 +1,2 @@
+<import src="./viewganhuo.vue.wxml" />
+    <template is="4ef56c30" data="{{ ...$root['0'], $root }}"/>

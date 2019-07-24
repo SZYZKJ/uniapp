@@ -1,0 +1,1 @@
+<template name="4ef56c30"><view class="_view M4ef56c30 viewganhuo"><text selectable="true" class="_text M4ef56c30 title">{{title}}</text><video id="lianmeng" class="_video M4ef56c30 video" src="{{url}}" duration="{{duration}}" direction="{{direction}}" autoplay="true"></video></view></template>

@@ -6,9 +6,8 @@
 }
 .kuai {
   margin: 20rpx 20rpx 20rpx 20rpx;
-  background: rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  background: #dfdfdf;
+  border-radius: 20rpx;
 }
 .kuai .biaoti {
   font-weight: bolder;

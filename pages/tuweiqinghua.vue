@@ -20,8 +20,8 @@
 </template>
 
 <script>
-  import api from 'common/api';
-  import tip from 'common/tip';
+    import api from 'common/api';
+    import tip from 'common/tip';
     export default {
         data() {
             return {
@@ -86,20 +86,20 @@
                 }
             },
             changeTab() {
-                if (this.endY - this.startY > 30 && Math.abs(this.endX - this.startX) * 1.5 < Math.abs(this.endY - this.startY)) {
+                if (this.endY - this.startY > 50 && Math.abs(this.endX - this.startX) * 3 < Math.abs(this.endY - this.startY)) {
                     this.openChat(0);
                 }
-                if (this.endY - this.startY < -30 && Math.abs(this.endX - this.startX) * 1.5 < Math.abs(this.endY - this.startY)) {
+                if (this.endY - this.startY < -50 && Math.abs(this.endX - this.startX) * 3 < Math.abs(this.endY - this.startY)) {
                     this.openChat(1);
                 }
             },
             touchStart(e) {
-                this.startX = e.changedTouches[0].clientX;
-                this.startY = e.changedTouches[0].clientY;
+                this.startX = e.mp.changedTouches[0].pageX;
+                this.startY = e.mp.changedTouches[0].pageY;
             },
             touchEnd(e) {
-                this.endX = e.changedTouches[0].clientX;
-                this.endY = e.changedTouches[0].clientY;
+                this.endX = e.mp.changedTouches[0].pageX;
+                this.endY = e.mp.changedTouches[0].pageY;
                 this.changeTab();
             },
         },

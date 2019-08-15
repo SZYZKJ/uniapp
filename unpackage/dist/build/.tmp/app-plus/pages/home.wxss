@@ -42,8 +42,7 @@
   margin-left: 10%;
   margin-top: 30rpx;
   width: 80%;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   border: 4rpx solid #ff7e00;
   height: 80rpx;
   line-height: 100rpx;
@@ -84,8 +83,7 @@
   font-size: 20rpx;
   color: #ffffff;
   background: #FFCC66;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
 }
 .kuai3 {
   margin-top: 30rpx;
@@ -129,8 +127,7 @@
   min-height: 203rpx;
 }
 .kuai3 .box .image {
-  -webkit-border-radius: 15rpx;
-          border-radius: 15rpx;
+  border-radius: 15rpx;
   width: 335rpx;
   height: 203rpx;
 }
@@ -183,8 +180,7 @@
   width: 100rpx;
   color: #fff;
   background: #ff7e00;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   font-size: 20rpx;
 }
 .kuai3 .box .text .mintext {
@@ -251,8 +247,7 @@
   text-align: left;
 }
 .kuai4 .bigbox .box .image {
-  -webkit-border-radius: 15rpx;
-          border-radius: 15rpx;
+  border-radius: 15rpx;
   margin: 20rpx;
   width: 335rpx;
   height: 203rpx;

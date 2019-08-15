@@ -100,12 +100,17 @@
     methods: {
       confirm() {
         uni.showModal({
-          title: "温馨提示",
-          content: "您当前为非会员，无法为您提供更多恋爱能力~",
-          showCancel: false,
-          confirmText: "确定",
+          title: "开通会员",
+          content: "您当前为非会员，点击开通，解锁更多会员专属服务，为您提供更多恋爱能力~",
+          showCancel: true,
+          cancelText: "取消",
+          confirmText: "开通",
           success: function(res) {
-            if (res.cancel) {} else {}
+            if (res.cancel) {} else {
+              uni.navigateTo({
+                url: "/pages/vip"
+              });
+            }
           },
           fail: function(res) {}, //接口调用失败的回调函数
           complete: function(res) {} //接口调用结束的回调函数（调用成功、失败都会执行）
@@ -174,7 +179,7 @@
 <style lang="less">
   .liaomeitaolu {
     text-align: justify;
-    background: rgba(0, 0, 0, 0.1);
+    background: #dfdfdf;
     .textend {
       padding-top: 30rpx;
       padding-bottom: 30rpx;

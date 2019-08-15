@@ -2,7 +2,7 @@ import {
   wxRequestPost
 } from './wxRequest';
 
-const apiMain = 'https://www.lianaizhuli.com/xcx/'
+const apiMain = 'https://www.xingnanzhuli.com/xcx/'
 // const apiMain = 'https://www.xingnanzhuli.com/xcx/'
 
 //微信的jscode换取sessionKey

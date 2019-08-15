@@ -1,29 +1,29 @@
-.container {
+.vip {
   text-align: center;
   margin-top: 0rpx;
   background: #ffffff;
 }
-.zhifu {
+.vip .zhifu {
   background: #09BB07;
   color: #ffffff;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-top: 28rpx;
   width: 60%;
 }
-.tequan {
+.vip .tequan {
   margin-top: 20rpx;
   color: #000000;
 }
-.tequanneirong {
+.vip .tequanneirong {
+  font-size: 28rpx;
   margin-top: 20rpx;
   margin-left: 20rpx;
   text-align: left;
 }
-.tequanneirong .tequantext {
+.vip .tequanneirong .tequantext {
   color: #000000;
 }
-.vip {
+.vip .viphang {
   padding-top: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -33,40 +33,30 @@
       -ms-flex-pack: distribute;
           justify-content: space-around;
 }
-.active {
-  background: rgba(9, 187, 7, 0.05);
-  color: #09BB07;
+.vip .vipkuang {
+  padding: 0rpx;
+  width: 46%;
+  border-radius: 20rpx;
+  border: 1rpx solid;
 }
-.viptext {
+.vip .vipkuangactive {
+  background: #dcf1ca;
+  color: #09BB07;
+  padding: 0rpx;
+  width: 46%;
+  border-radius: 20rpx;
+  border: 1rpx solid;
+}
+.vip .viptext {
+  font-size: 28rpx;
   text-align: center;
   padding: 0rpx;
 }
-.try {
+.vip .viptextactive {
+  background: #dcf1ca;
+  color: #09BB07;
+  font-size: 28rpx;
+  text-align: center;
   padding: 0rpx;
-  width: 46%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
-  border: 1rpx solid;
-}
-.month {
-  padding: 0rpx;
-  width: 46%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
-  border: 1rpx solid;
-}
-.year {
-  padding: 0rpx;
-  width: 46%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
-  border: 1rpx solid;
-}
-.lifelong {
-  padding: 0rpx;
-  width: 46%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
-  border: 1rpx solid;
 }
 

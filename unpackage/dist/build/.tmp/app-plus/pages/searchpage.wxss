@@ -19,10 +19,9 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-border-radius: 300rpx;
-          border-radius: 300rpx;
+  border-radius: 300rpx;
   color: #333;
-  background: rgba(0, 0, 0, 0.1);
+  background: #dfdfdf;
   padding: 6rpx 20rpx;
   height: 58rpx;
 }
@@ -44,7 +43,7 @@
 }
 .showdata {
   padding-top: 136rpx;
-  background: rgba(0, 0, 0, 0.1);
+  background: #dfdfdf;
 }
 .showdata .textend {
   padding-top: 30rpx;
@@ -55,19 +54,17 @@
   padding-top: 88rpx;
 }
 .recommend .bigkuai {
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-left: 20rpx;
   margin-right: 20rpx;
   margin-bottom: 20rpx;
   padding-top: 20rpx;
-  background: rgba(0, 0, 0, 0.1);
+  background: #dfdfdf;
 }
 .recommend .kuai {
-  background: rgba(0, 0, 0, 0);
+  background: #dfdfdf;
   width: 100%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   display: inline-block;
 }
 .recommend .kuai .biaoti {
@@ -90,8 +87,7 @@
 }
 .recommend .hiskuai {
   width: 100%;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   display: inline;
 }
 .recommend .hiskuai .biaoti {

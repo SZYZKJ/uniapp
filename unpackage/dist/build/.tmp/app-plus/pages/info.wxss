@@ -12,8 +12,7 @@
   margin-top: 80rpx;
   padding-top: 20rpx;
   background: #ffffff;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   border: 1rpx solid #efefef;
 }
 .header .headcontent .imagekuang {
@@ -34,16 +33,20 @@
 .header .headcontent .wenhouyu {
   position: fixed;
   top: 0rpx;
+  height: 80rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
   left: 60rpx;
   color: #ffffff;
 }
 .header .headercontent0 {
   width: 100%;
   margin-left: 200rpx;
-  color: #000000;
+  color: #333;
+  font-size: 28rpx;
 }
-.header .headercontent3 {
-  margin-left: 20rpx;
+.header .headercontent0 .headercontent3 {
+  margin-left: 30rpx;
   width: 45rpx;
   height: 35rpx;
 }
@@ -71,8 +74,11 @@
   overflow: hidden;
   width: 150rpx;
   height: 150rpx;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
+}
+.userinfo-avatar .avatarUrl {
+  width: 150rpx;
+  height: 150rpx;
 }
 .tequanming {
   margin-left: 50rpx;
@@ -105,8 +111,7 @@
   color: #000000;
   margin-left: 3%;
   width: 94%;
-  -webkit-border-radius: 0rpx;
-          border-radius: 0rpx;
+  border-radius: 0rpx;
 }
 .info_block .item_content {
   display: -webkit-box;

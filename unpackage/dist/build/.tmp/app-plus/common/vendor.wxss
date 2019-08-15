@@ -27,8 +27,7 @@
 
 .huashuList .duihua {
   margin-top: 20rpx;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-left: 20rpx;
   margin-right: 20rpx;
   padding-left: 20rpx;
@@ -72,8 +71,7 @@
 }
 .huashuList .vip .item_img {
   padding: 0rpx;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   width: 368rpx;
   height: 248rpx;
 }
@@ -89,8 +87,7 @@
   margin-left: 20rpx;
 }
 .biaoqingList .box .image_box {
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   border: 1rpx solid #ffffff;
   width: 220rpx;
   height: 220rpx;
@@ -147,8 +144,7 @@
   font-size: 20rpx;
   color: #fff;
   background: #ff7e00;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
 }
 .container .wenzhang .kuai .image {
   margin-left: 16rpx;

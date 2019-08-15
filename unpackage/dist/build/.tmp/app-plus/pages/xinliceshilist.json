@@ -1,14 +1,6 @@
 {
   "usingComponents": {},
   "navigationBarTitleText": "心理测试",
-  "navigationBarTextStyle": "white",
-  "enablePullDownRefresh": true,
-  "navigationStyle": "custom",
-  "titleNView": false,
-  "bounce": "none",
-  "pullToRefresh": {
-    "style": "circle",
-    "color": "#FD575C",
-    "offset": "60px"
-  }
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true
 }

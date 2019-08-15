@@ -90,8 +90,7 @@
   font-size: 20rpx;
   color: #fff;
   background: #ff7e00;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
 }
 .shoucang .wenzhang .kuai .image {
   margin-left: 16rpx;
@@ -104,8 +103,7 @@
   left: 300rpx;
   width: 80rpx;
   height: 80rpx;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   border: 5rpx solid #ff7e00;
 }
 .shoucang .wenzhang .xuanze1 {
@@ -115,8 +113,7 @@
   background: #ff7e00;
   width: 88rpx;
   height: 88rpx;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
 }
 .shoucang .textend {
   padding-top: 30rpx;
@@ -141,8 +138,7 @@
   overflow: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-border-radius: 0;
-          border-radius: 0;
+  border-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

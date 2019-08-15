@@ -33,8 +33,7 @@
   padding: 20rpx;
   font-size: 30rpx;
   display: inline-block;
-  -webkit-border-radius: 8rpx;
-          border-radius: 8rpx;
+  border-radius: 8rpx;
   color: #000;
   max-width: 70%;
 }
@@ -116,8 +115,7 @@
   overflow: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-border-radius: 0;
-          border-radius: 0;
+  border-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

@@ -1,6 +1,6 @@
 var CryptoJS = require('./aes.js');
-var key = CryptoJS.enc.Utf8.parse("szyzkjpangyuming");
-var iv = CryptoJS.enc.Utf8.parse("abcde920318abcde");
+var key = CryptoJS.enc.Utf8.parse("testtesttesttest");
+var iv = CryptoJS.enc.Utf8.parse("1234123412341234");
 function Encrypt(word) {
     var srcs = CryptoJS.enc.Utf8.parse(word);
     var encrypted = CryptoJS.AES.encrypt(srcs, key, { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 });

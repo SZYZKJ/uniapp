@@ -17,8 +17,7 @@
   height: 60rpx;
   background: #ff7e00;
   color: #ffffff;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-top: 100rpx;
   padding-top: 16rpx;
   width: 60%;

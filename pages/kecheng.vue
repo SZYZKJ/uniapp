@@ -3,7 +3,7 @@
     <image class="banner" mode="widthFix" :src="kecheng.image" />
     <view class="title">{{kecheng.title}}</view>
     <view scroll-x="true" class="tab-h" scroll-left="scrollLeft">
-      <view v-for="(item,index) in tablist" :key="index" class="currentTab==index?'tab-itemactive':'tab-item'" @tap="swichNav(index)">{{item}}</view>
+      <view v-for="(item,index) in tablist" :key="index" v-bind:class="currentTab==index?'tab-itemactive':'tab-item'" @tap="swichNav(index)">{{item}}</view>
     </view>
     <image class="banner" v-if="currentTab==0" mode="widthFix" :src="kecheng.url" @touchstart='touchStart' @touchend="touchEnd" />
     <view v-else class="libiao" @touchstart='touchStart' @touchend="touchEnd">
@@ -95,23 +95,23 @@
         }
       },
       changeTab() {
-        if (this.endX - this.startX > 30 && Math.abs(this.endY - this.startY) * 1.5 < Math.abs(this.endX - this.startX)) {
+        if (this.endX - this.startX > 50 && Math.abs(this.endY - this.startY) * 3 < Math.abs(this.endX - this.startX)) {
           if (this.currentTab > 0) {
             this.currentTab = 0;
           }
-        } else if (this.endX - this.startX < -30 && Math.abs(this.endY - this.startY) * 1.5 < Math.abs(this.endX - this.startX)) {
+        } else if (this.endX - this.startX < -50 && Math.abs(this.endY - this.startY) * 3 < Math.abs(this.endX - this.startX)) {
           if (this.currentTab < 1) {
             this.currentTab = 1;
           }
         }
       },
       touchStart(e) {
-        this.startX = e.changedTouches[0].clientX;
-        this.startY = e.changedTouches[0].clientY;
+        this.startX = e.mp.changedTouches[0].pageX;
+        this.startY = e.mp.changedTouches[0].pageY;
       },
       touchEnd(e) {
-        this.endX = e.changedTouches[0].clientX;
-        this.endY = e.changedTouches[0].clientY;
+        this.endX = e.mp.changedTouches[0].pageX;
+        this.endY = e.mp.changedTouches[0].pageY;
         this.changeTab();
       },
       goTohtml(item, index) {

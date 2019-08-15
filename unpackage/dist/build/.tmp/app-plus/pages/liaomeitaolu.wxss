@@ -1,6 +1,6 @@
 .liaomeitaolu {
   text-align: justify;
-  background: rgba(0, 0, 0, 0.1);
+  background: #dfdfdf;
 }
 .liaomeitaolu .textend {
   padding-top: 30rpx;
@@ -12,8 +12,7 @@
   width: 100%;
 }
 .lilunList .secondkuai {
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-left: 20rpx;
   margin-right: 20rpx;
   padding-left: 20rpx;
@@ -65,14 +64,12 @@
 }
 .lilunList .secondkuai .duihua .vip .item_img {
   padding: 0rpx;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   width: 368rpx;
   height: 248rpx;
 }
 .lilunList .secondkuai .thirdkuai .contentkuai {
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-top: 20rpx;
 }
 .lilunList .secondkuai .thirdkuai .contentkuai .content {

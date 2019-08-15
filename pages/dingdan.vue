@@ -59,7 +59,7 @@
     .dingdan {
         margin: 0rpx;
         padding-bottom: 20rpx;
-        background: rgba(0, 0, 0, 0.1);
+        background: #dfdfdf;
         .title {
             color: #000000;
             text-align: center;

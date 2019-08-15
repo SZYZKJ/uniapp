@@ -60,16 +60,14 @@
   width: 100rpx;
   color: #fff;
   background: #ff7e00;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   font-size: 20rpx;
 }
 .kechenglist .wenzhang .kuai .textkuang .minlan .weigoumai {
   width: 100rpx;
   color: #fff;
   background: #09BB07;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   font-size: 20rpx;
 }
 .kechenglist .wenzhang .kuai .image {

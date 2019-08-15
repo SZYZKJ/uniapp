@@ -3,7 +3,7 @@
     <view class="search">
       <view class="serch_content">
         <icon type="search" size="20"></icon>
-        <input type="text" class="search_input" :value="inputValue" :focus="focus" @input="bindinput" @confirm="bindconfirm" @focus="bindfocus" confirm-type="search" placeholder="复制妹子聊天的话" maxlength="20" />
+        <input type="text" class="search_input" :value="inputValue" :focus="focus" @input="bindinput" @confirm="bindconfirm" @focus="bindfocus" @blur="bindblur" confirm-type="search" placeholder="复制妹子聊天的话" maxlength="20" />
         <view class="cha" v-if="inputValue!=''" @tap="delText">
           <view class="chaclearn">
             <icon type="clear" size="20"></icon>
@@ -148,12 +148,17 @@
       },
       confirm() {
         uni.showModal({
-          title: "温馨提示",
-          content: "您当前为非会员，无法为您提供更多恋爱能力~",
-          showCancel: false,
-          confirmText: "确定",
+          title: "开通会员",
+          content: "您当前为非会员，点击开通，解锁更多会员专属服务，为您提供更多恋爱能力~",
+          showCancel: true,
+          cancelText: "取消",
+          confirmText: "开通",
           success: function(res) {
-            if (res.cancel) {} else {}
+            if (res.cancel) {} else {
+              uni.navigateTo({
+                url: "/pages/vip"
+              });
+            }
           },
           fail: function(res) {}, //接口调用失败的回调函数
           complete: function(res) {} //接口调用结束的回调函数（调用成功、失败都会执行）
@@ -254,8 +259,8 @@
       },
       changeTab() {
         if (
-          this.endX - this.startX > 30 &&
-          Math.abs(this.endY - this.startY) * 1.5 <
+          this.endX - this.startX > 50 &&
+          Math.abs(this.endY - this.startY) * 3 <
           Math.abs(this.endX - this.startX)
         ) {
           if (this.currentTab > 0) {
@@ -284,8 +289,8 @@
             })
           }
         } else if (
-          this.endX - this.startX < -30 &&
-          Math.abs(this.endY - this.startY) * 1.5 <
+          this.endX - this.startX < -50 &&
+          Math.abs(this.endY - this.startY) * 3 <
           Math.abs(this.endX - this.startX)
         ) {
           if (this.currentTab < 2) {
@@ -339,12 +344,12 @@
         this.ifonShow = false;
       },
       touchStart(e) {
-        this.startX = e.changedTouches[0].clientX;
-        this.startY = e.changedTouches[0].clientY;
+        this.startX = e.mp.changedTouches[0].pageX;
+        this.startY = e.mp.changedTouches[0].pageY;
       },
       touchEnd(e) {
-        this.endX = e.changedTouches[0].clientX;
-        this.endY = e.changedTouches[0].clientY;
+        this.endX = e.mp.changedTouches[0].pageX;
+        this.endY = e.mp.changedTouches[0].pageY;
         this.changeTab();
       },
       bindinput(obj) {
@@ -375,7 +380,11 @@
         }
       },
       bindfocus() {
+        uni.hideTabBar();
         this.showRecommend = true;
+      },
+      bindblur(){
+        uni.showTabBar();
       },
       delText() {
         this.inputValue = "";
@@ -513,7 +522,7 @@
       align-items: center;
       border-radius: 300rpx;
       color: #333;
-      background: rgba(0, 0, 0, 0.1);
+      background: #dfdfdf;
       padding: 6rpx 20rpx;
       height: 58rpx;
       .search_input {
@@ -536,7 +545,7 @@
   }
   .showdata {
     padding-top: 136rpx;
-    background: rgba(0, 0, 0, 0.1);
+    background: #dfdfdf;
     .textend {
       padding-top: 30rpx;
       padding-bottom: 30rpx;
@@ -551,10 +560,10 @@
       margin-right: 20rpx;
       margin-bottom: 20rpx;
       padding-top: 20rpx;
-      background: rgba(0, 0, 0, 0.1);
+      background: #dfdfdf;
     }
     .kuai {
-      background: rgba(0, 0, 0, 0);
+      background: #dfdfdf;
       width: 100%;
       border-radius: 20rpx;
       display: inline-block;

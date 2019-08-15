@@ -8,8 +8,7 @@
   padding-bottom: 30rpx;
 }
 .kaishiceshi {
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   background: #ff7e00;
   line-height: 100rpx;
   color: #ffffff;
@@ -21,8 +20,7 @@
 }
 .timu {
   width: 90%;
-  -webkit-border-radius: 30rpx;
-          border-radius: 30rpx;
+  border-radius: 30rpx;
   background: #fff;
   margin-left: 5%;
 }
@@ -63,16 +61,14 @@
 .zixiang .xuanze0 {
   width: 25rpx;
   height: 25rpx;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   border: 5rpx solid #ff7e00;
 }
 .zixiang .xuanze1 {
   background: #ff7e00;
   width: 30rpx;
   height: 30rpx;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
 }
 .wanchenglv {
   margin-top: 30rpx;
@@ -115,8 +111,7 @@
           justify-content: space-around;
 }
 .shangyiti {
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   margin-top: 30rpx;
   margin-bottom: 30rpx;
   width: 200rpx;
@@ -127,8 +122,7 @@
   text-align: center;
 }
 .tijiao {
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   margin-top: 30rpx;
   margin-bottom: 30rpx;
   width: 200rpx;

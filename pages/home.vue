@@ -7,7 +7,7 @@
         </swiper-item>
       </block>
     </swiper>
-    <view @touchstart='touchStart' @touchend="touchEnd">
+    <view @touchstart="touchStart" @touchend="touchEnd">
       <view class="tubiao">
         <view class="box" v-for="(item,index) in tubiao" :key="index">
           <view @tap="goTopage(item.page)">
@@ -265,11 +265,11 @@
         }
       },
       changeTab() {
-        if (this.endX - this.startX > 30 && Math.abs(this.endY - this.startY) * 1.5 < Math.abs(this.endX - this.startX)) {
+        if (this.endX - this.startX > 50 && Math.abs(this.endY - this.startY) * 3 < Math.abs(this.endX - this.startX)) {
           uni.switchTab({
             url: "./info"
           })
-        } else if (this.endX - this.startX < -30 && Math.abs(this.endY - this.startY) * 1.5 < Math.abs(this.endX - this.startX)) {
+        } else if (this.endX - this.startX < -50 && Math.abs(this.endY - this.startY) * 3 < Math.abs(this.endX - this.startX)) {
           uni.switchTab({
             url: "./liaomeitaolulist"
           })
@@ -351,12 +351,12 @@
         })
       },
       touchStart(e) {
-        this.startX = e.changedTouches[0].clientX;
-        this.startY = e.changedTouches[0].clientY;
+        this.startX = e.mp.changedTouches[0].pageX;
+        this.startY = e.mp.changedTouches[0].pageY;
       },
       touchEnd(e) {
-        this.endX = e.changedTouches[0].clientX;
-        this.endY = e.changedTouches[0].clientY;
+        this.endX = e.mp.changedTouches[0].pageX;
+        this.endY = e.mp.changedTouches[0].pageY;
         this.changeTab();
       },
       goToAdvert(item) {

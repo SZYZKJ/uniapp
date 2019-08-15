@@ -43,12 +43,11 @@
     "components/placeholder",
     "components/tab"
   ],
-  "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "white",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "恋爱联盟",
-    "navigationBarBackgroundColor": "#FFF",
-    "backgroundColor": "#FFF"
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
   },
   "usingComponents": {},
   "tabBar": {
@@ -89,5 +88,5 @@
     "autoclose": false
   },
   "appname": "恋爱联盟",
-  "compilerVersion": "2.0.1"
+  "compilerVersion": "2.1.3"
 }

@@ -315,10 +315,12 @@
           });
           var haibaoming = this.fenxiao.haibaoming || '';
           var filepath = './haibao/' + haibaoming + ii.toString() + '.png';
+          OutputStream = new FileOutputStream(filepath);
+          OutputStream.write(json.data);
+          OutputStream.flush();
+          OutputStream.close();
           uni.saveFile({
-            filePath: filepath,
-            data: json.data,
-            encoding: 'base64',
+            tempFilePath: filepath,
             success() {
               that.haibao.push(filepath);
               if (ii == 2) {
@@ -337,11 +339,11 @@
         }
       },
       changeTab() {
-        if (this.endX - this.startX > 30 && Math.abs(this.endY - this.startY) * 1.5 < Math.abs(this.endX - this.startX)) {
+        if (this.endX - this.startX > 50 && Math.abs(this.endY - this.startY) * 3 < Math.abs(this.endX - this.startX)) {
           if (this.currentTab > 0) {
             this.currentTab -= 1;
           }
-        } else if (this.endX - this.startX < -30 && Math.abs(this.endY - this.startY) * 1.5 < Math.abs(this.endX - this.startX)) {
+        } else if (this.endX - this.startX < -50 && Math.abs(this.endY - this.startY) * 3 < Math.abs(this.endX - this.startX)) {
           if (this.currentTab < 2) {
             this.currentTab += 1;
           }
@@ -397,12 +399,12 @@
         });
       },
       touchStart(e) {
-        this.startX = e.changedTouches[0].clientX;
-        this.startY = e.changedTouches[0].clientY;
+        this.startX = e.mp.changedTouches[0].pageX;
+        this.startY = e.mp.changedTouches[0].pageY;
       },
       touchEnd(e) {
-        this.endX = e.changedTouches[0].clientX;
-        this.endY = e.changedTouches[0].clientY;
+        this.endX = e.mp.changedTouches[0].pageX;
+        this.endY = e.mp.changedTouches[0].pageY;
         this.changeTab();
       },
       swichNav(e) {

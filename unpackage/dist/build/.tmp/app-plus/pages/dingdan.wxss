@@ -1,7 +1,7 @@
 .dingdan {
   margin: 0rpx;
   padding-bottom: 20rpx;
-  background: rgba(0, 0, 0, 0.1);
+  background: #dfdfdf;
 }
 .dingdan .title {
   color: #000000;
@@ -11,8 +11,7 @@
   margin-top: 20rpx;
   margin-left: 20rpx;
   margin-right: 20rpx;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   background: #FFFFFF;
 }
 .dingdan .dingdankuang .dingdanminkuang {

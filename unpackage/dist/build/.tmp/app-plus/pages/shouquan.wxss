@@ -1,20 +1,18 @@
-.shouquan {
-  height: 100%;
-  background: #fff;
+.shouquan .denglu {
+  width: 100%;
   text-align: center;
-  padding-top: 100rpx;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 500rpx;
 }
 .shouquan .authorize-icon {
+  position: fixed;
+  bottom: 0;
+  left: 311rpx;
   width: 128rpx;
   height: 128rpx;
   display: block;
   margin: 0 auto;
-  padding-bottom: 10rpx;
-}
-.shouquan .auth-item {
-  padding: 5rpx 0;
-}
-.shouquan .btn-authorize {
-  margin: 100rpx 50rpx;
+  padding-bottom: 300rpx;
 }
 

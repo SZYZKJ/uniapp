@@ -1,5 +1,13 @@
 {
   "usingComponents": {},
   "navigationBarTitleText": "视频",
-  "navigationBarTextStyle": "black"
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "default",
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FD575C",
+    "offset": "60px"
+  }
 }

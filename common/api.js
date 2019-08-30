@@ -1,5 +1,5 @@
 import {
-  wxRequestPost
+	wxRequestPost
 } from './wxRequest';
 
 const apiMain = 'https://www.xingnanzhuli.com/xcx/'
@@ -7,8 +7,12 @@ const apiMain = 'https://www.xingnanzhuli.com/xcx/'
 
 //微信的jscode换取sessionKey
 const getUnionid = (params) => wxRequestPost(params, apiMain + 'getUnionid');
+//微信的jscode换取sessionKey
+const getAppunionid = (params) => wxRequestPost(params, apiMain + 'getAppunionid');
 //判断是否存在unionid
 const checkUnionid = (params) => wxRequestPost(params, apiMain + 'checkUnionid');
+//判断是否存在unionid
+const checkAppunionid = (params) => wxRequestPost(params, apiMain + 'checkAppunionid');
 //获取手机号码
 const getPhoneNumber = (params) => wxRequestPost(params, apiMain + 'getPhoneNumber');
 //搜索话术
@@ -111,59 +115,64 @@ const getFenxiaoyonghu = (params) => wxRequestPost(params, apiMain + 'getFenxiao
 const getTixianjilu = (params) => wxRequestPost(params, apiMain + 'getTixianjilu');
 //分销提现
 const tiXian = (params) => wxRequestPost(params, apiMain + 'tiXian');
+//检测版本
+const checkVersion = (params) => wxRequestPost(params, apiMain + 'checkVersion');
 
 export default {
-  tiXian,
-  getTixianjilu,
-  getFenxiaoyonghu,
-  getYijiyonghu,
-  getFenxiaodingdan,
-  getHaibaobase64,
-  getFenxiao,
-  getIoswenan,
-  get_kechengprepay_id,
-  getKechengList,
-  getKecheng,
-  setDianzanshoucang,
-  getDianzanshoucangList,
-  getDianzanshoucang,
-  setDianzanshoucangshu,
-  getSijiaoList,
-  getXingxiangjianshe,
-  getLiaomeishizhan,
-  getUnionid,
-  checkUnionid,
-  getPhoneNumber,
-  searchLiaomeihuashu,
-  searchGuanli,
-  searchBiaoqing,
-  searchBaike,
-  getLiaomeitaoluList,
-  getWenzhangList,
-  getGanhuoList,
-  getXingxiangjiansheList,
-  getLiaomeishizhanList,
-  getHiswordList,
-  clearHiswords,
-  getRecommend,
-  searchWenzhangList,
-  searchGanhuoList,
-  get_prepay_id,
-  getTequan,
-  getJifen,
-  getDingdan,
-  getIslianmeng,
-  setJilu,
-  getTuweiqinghuaList,
-  getTuweiqinghua,
-  getShouyekuai,
-  getShouyeman,
-  getQingganbaike,
-  getQingganbaikeList,
-  getBaike,
-  getWendaList,
-  getWenda,
-  getXinliceshiList,
-  getXinliceshi,
-  getCeshidaan,
+	checkVersion,
+	tiXian,
+	getTixianjilu,
+	getFenxiaoyonghu,
+	getYijiyonghu,
+	getFenxiaodingdan,
+	getHaibaobase64,
+	getFenxiao,
+	getIoswenan,
+	get_kechengprepay_id,
+	getKechengList,
+	getKecheng,
+	setDianzanshoucang,
+	getDianzanshoucangList,
+	getDianzanshoucang,
+	setDianzanshoucangshu,
+	getSijiaoList,
+	getXingxiangjianshe,
+	getLiaomeishizhan,
+	getUnionid,
+	getAppunionid,
+	checkUnionid,
+	checkAppunionid,
+	getPhoneNumber,
+	searchLiaomeihuashu,
+	searchGuanli,
+	searchBiaoqing,
+	searchBaike,
+	getLiaomeitaoluList,
+	getWenzhangList,
+	getGanhuoList,
+	getXingxiangjiansheList,
+	getLiaomeishizhanList,
+	getHiswordList,
+	clearHiswords,
+	getRecommend,
+	searchWenzhangList,
+	searchGanhuoList,
+	get_prepay_id,
+	getTequan,
+	getJifen,
+	getDingdan,
+	getIslianmeng,
+	setJilu,
+	getTuweiqinghuaList,
+	getTuweiqinghua,
+	getShouyekuai,
+	getShouyeman,
+	getQingganbaike,
+	getQingganbaikeList,
+	getBaike,
+	getWendaList,
+	getWenda,
+	getXinliceshiList,
+	getXinliceshi,
+	getCeshidaan,
 }

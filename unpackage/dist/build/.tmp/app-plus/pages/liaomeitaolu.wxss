@@ -1,35 +1,54 @@
 .liaomeitaolu {
   text-align: justify;
-  background: #dfdfdf;
+  background: rgba(0, 0, 0, 0.1);
 }
 .liaomeitaolu .textend {
   padding-top: 30rpx;
   padding-bottom: 30rpx;
   text-align: center;
 }
-.lilunList {
-  padding-top: 20rpx;
-  width: 100%;
+.swiper {
+  min-height: 5000rpx;
 }
-.lilunList .secondkuai {
+.current {
+  text-align: center;
+  color: #ff7e00;
+  font-size: 30rpx;
+}
+.secondkuai {
   border-radius: 20rpx;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
   padding-left: 20rpx;
   padding-right: 20rpx;
   padding-top: 20rpx;
   padding-bottom: 20rpx;
   background: #ffffff;
 }
-.lilunList .secondkuai .duihua .biaoti {
-  width: 100%;
+.secondkuai .duihua .biaoti {
+  text-align: center;
   white-space: pre-wrap;
   margin-bottom: 10rpx;
   font-weight: bolder;
   font-size: 30rpx;
   color: #333;
 }
-.lilunList .secondkuai .duihua .nv {
+.secondkuai .duihua .fangshi {
+  white-space: pre-wrap;
+  margin-bottom: 10rpx;
+  font-weight: bolder;
+  font-size: 30rpx;
+  color: #ff7e00;
+}
+.secondkuai .duihua .jiexi {
+  white-space: pre-wrap;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  font-weight: bolder;
+  font-size: 30rpx;
+  color: #333;
+}
+.secondkuai .duihua .nv {
   line-height: 25px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -37,7 +56,7 @@
   display: flex;
   left: 0;
 }
-.lilunList .secondkuai .duihua .nan {
+.secondkuai .duihua .nan {
   line-height: 25px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -45,47 +64,33 @@
   display: flex;
   left: 0;
 }
-.lilunList .secondkuai .duihua .item_img {
+.secondkuai .duihua .item_img {
   padding-top: 10rpx;
   padding-right: 10rpx;
   width: 35rpx;
   height: 35rpx;
 }
-.lilunList .secondkuai .duihua .textkuang {
+.secondkuai .duihua .textkuang {
   width: 100%;
 }
-.lilunList .secondkuai .duihua .text {
+.secondkuai .duihua .text {
   font-size: 28rpx;
   color: #333;
 }
-.lilunList .secondkuai .duihua .vip {
+.secondkuai .duihua .vip {
   margin-top: 20rpx;
   text-align: center;
 }
-.lilunList .secondkuai .duihua .vip .item_img {
+.secondkuai .duihua .vip .item_img {
   padding: 0rpx;
   border-radius: 20rpx;
   width: 368rpx;
   height: 248rpx;
 }
-.lilunList .secondkuai .thirdkuai .contentkuai {
-  border-radius: 20rpx;
-  margin-top: 20rpx;
-}
-.lilunList .secondkuai .thirdkuai .contentkuai .content {
-  width: 100%;
-  padding-top: 20rpx;
+.secondkuai .duihua .content {
   padding-left: 20rpx;
   padding-right: 20rpx;
   padding-bottom: 20rpx;
   font-size: 28rpx;
-}
-.lilunList .secondkuai .thirdkuai .chakankuai {
-  margin-top: 20rpx;
-  text-align: center;
-}
-.lilunList .secondkuai .thirdkuai .chakankuai .chakan {
-  font-weight: bolder;
-  font-size: 30rpx;
 }
 

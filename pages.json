@@ -1,12 +1,12 @@
 {
-	"pages": [{
+	"pages": [
+		{
 			"path": "pages/home",
 			"style": {
 				"navigationBarTitleText": "恋爱联盟",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -14,17 +14,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/liaomeitaolulist",
 			"style": {
-				"navigationBarTitleText": "撩妹套路",
-				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "话题",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -32,17 +31,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/searchpage",
 			"style": {
 				"navigationBarTitleText": "搜索",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -50,17 +48,17 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/info",
 			"style": {
+				"navigationBarBackgroundColor": "#f8b11b",
 				"navigationBarTitleText": "个人",
 				"navigationBarTextStyle": "white",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -68,17 +66,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/adding",
 			"style": {
 				"navigationBarTitleText": "敬请关注",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -86,17 +83,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/baike",
 			"style": {
 				"navigationBarTitleText": "百科",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -104,17 +100,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/baikelist",
 			"style": {
 				"navigationBarTitleText": "百科",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -122,17 +117,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/dingdan",
 			"style": {
 				"navigationBarTitleText": "订单",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -140,17 +134,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/fenxiao",
 			"style": {
 				"navigationBarTitleText": "推广中心",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -158,17 +151,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/jifen",
 			"style": {
 				"navigationBarTitleText": "积分",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -176,17 +168,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/kecheng",
 			"style": {
 				"navigationBarTitleText": "课程",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -194,17 +185,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/kechenglist",
 			"style": {
 				"navigationBarTitleText": "课程",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -212,17 +202,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/kechengneirong",
 			"style": {
 				"navigationBarTitleText": "课程内容",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -230,17 +219,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/liaomeishizhan",
 			"style": {
 				"navigationBarTitleText": "撩妹实战",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -248,17 +236,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/liaomeishizhanlist",
 			"style": {
 				"navigationBarTitleText": "撩妹实战",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -266,17 +253,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/liaomeitaolu",
 			"style": {
 				"navigationBarTitleText": "撩妹套路",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -284,17 +270,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/phonenumber",
 			"style": {
 				"navigationBarTitleText": "手机授权",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -302,17 +287,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/qingganbaike",
 			"style": {
 				"navigationBarTitleText": "情感百科",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -320,17 +304,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/shoucang",
 			"style": {
 				"navigationBarTitleText": "收藏点赞",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -338,17 +321,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/shouquan",
 			"style": {
-				"navigationBarTitleText": "授权",
-				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -356,17 +338,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/sijiao",
 			"style": {
 				"navigationBarTitleText": "私教",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -374,17 +355,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/sijiaolist",
 			"style": {
 				"navigationBarTitleText": "私教",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -392,17 +372,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/tequan",
 			"style": {
 				"navigationBarTitleText": "特权",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -410,17 +389,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/tuweiqinghua",
 			"style": {
 				"navigationBarTitleText": "土味情话",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -428,17 +406,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/tuweiqinghualist",
 			"style": {
 				"navigationBarTitleText": "土味情话",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -446,17 +423,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/viewganhuo",
 			"style": {
 				"navigationBarTitleText": "视频",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -464,7 +440,7 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
@@ -474,7 +450,6 @@
 				"navigationBarTextStyle": "white",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -482,17 +457,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/viewimage",
 			"style": {
 				"navigationBarTitleText": "图片",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -500,17 +474,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/vip",
 			"style": {
 				"navigationBarTitleText": "会员",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -518,17 +491,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/weixin",
 			"style": {
 				"navigationBarTitleText": "导师微信",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -536,17 +508,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/wenda",
 			"style": {
 				"navigationBarTitleText": "问答",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -554,17 +525,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/wendalist",
 			"style": {
 				"navigationBarTitleText": "问答",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -572,17 +542,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/xingxiangjianshe",
 			"style": {
 				"navigationBarTitleText": "形象建设",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -590,17 +559,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/xingxiangjianshelist",
 			"style": {
 				"navigationBarTitleText": "形象建设",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -608,17 +576,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/xinliceshi",
 			"style": {
 				"navigationBarTitleText": "心理测试",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -626,17 +593,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "pages/xinliceshilist",
 			"style": {
 				"navigationBarTitleText": "心理测试",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -644,17 +610,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "components/baike",
 			"style": {
 				"navigationBarTitleText": "百科",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -662,17 +627,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "components/biaoqing",
 			"style": {
 				"navigationBarTitleText": "表情",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -680,17 +644,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "components/huashu",
 			"style": {
 				"navigationBarTitleText": "话术",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -698,17 +661,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "components/loading",
 			"style": {
 				"navigationBarTitleText": "loading",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -716,17 +678,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "components/placeholder",
 			"style": {
 				"navigationBarTitleText": "placeholder",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -734,17 +695,16 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		},
 		{
 			"path": "components/tab",
 			"style": {
 				"navigationBarTitleText": "tab",
-				"navigationBarTextStyle": "white",
+				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh": true,
 				"app-plus": {
-					"titleNView": false,
 					"bounce": "none",
 					"pullToRefresh": {
 						"style": "circle",
@@ -752,41 +712,50 @@
 						"offset": "60px"
 					}
 				},
-				"navigationStyle": "custom"
+				"navigationStyle": "default"
 			}
 		}
 	],
-	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "恋爱联盟",
-		"navigationBarBackgroundColor": "#FFF",
-		"backgroundColor": "#FFF"
+	"global": {
+		"webviewParameter": {
+			"titleNView": {
+				"backgroundColor": "white",
+				"titleColor": "#333",
+				"titleSize": "18px",
+				"titleText": "恋爱联盟"
+			}
+		}
 	},
 	"tabBar": {
 		"color": "#999999",
 		"selectedColor": "#ff4500",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
-		"list": [{
-			"pagePath": "pages/home",
-			"text": "首页",
-			"iconPath": "static/shouye.png",
-			"selectedIconPath": "static/shouye_active.png"
-		}, {
-			"pagePath": "pages/liaomeitaolulist",
-			"text": "套路",
-			"iconPath": "static/wenzhang.png",
-			"selectedIconPath": "static/wenzhang_active.png"
-		}, {
-			"pagePath": "pages/searchpage",
-			"text": "搜索",
-			"iconPath": "static/search.png",
-			"selectedIconPath": "static/search_active.png"
-		}, {
-			"pagePath": "pages/info",
-			"text": "个人",
-			"iconPath": "static/geren.png",
-			"selectedIconPath": "static/geren_active.png"
-		}]
+		"list": [
+			{
+				"pagePath": "pages/home",
+				"text": "首页",
+				"iconPath": "static/shouye.png",
+				"selectedIconPath": "static/shouye_active.png"
+			},
+			{
+				"pagePath": "pages/liaomeitaolulist",
+				"text": "话题",
+				"iconPath": "static/wenzhang.png",
+				"selectedIconPath": "static/wenzhang_active.png"
+			},
+			{
+				"pagePath": "pages/searchpage",
+				"text": "搜索",
+				"iconPath": "static/search.png",
+				"selectedIconPath": "static/search_active.png"
+			},
+			{
+				"pagePath": "pages/info",
+				"text": "个人",
+				"iconPath": "static/geren.png",
+				"selectedIconPath": "static/geren_active.png"
+			}
+		]
 	}
 }

@@ -43,13 +43,6 @@
     "components/placeholder",
     "components/tab"
   ],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "恋爱联盟",
-    "navigationBarBackgroundColor": "#ffffff",
-    "backgroundColor": "#ffffff"
-  },
-  "usingComponents": {},
   "tabBar": {
     "color": "#999999",
     "selectedColor": "#ff4500",
@@ -64,7 +57,7 @@
       },
       {
         "pagePath": "pages/liaomeitaolulist",
-        "text": "套路",
+        "text": "话题",
         "iconPath": "static/wenzhang.png",
         "selectedIconPath": "static/wenzhang_active.png"
       },
@@ -83,10 +76,11 @@
     ]
   },
   "nvueCompiler": "weex",
+  "renderer": "auto",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
   "appname": "恋爱联盟",
-  "compilerVersion": "2.1.3"
+  "compilerVersion": "2.2.0"
 }

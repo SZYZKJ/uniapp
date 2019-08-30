@@ -15,8 +15,51 @@
   border-radius: 20rpx;
   border: 1rpx solid #efefef;
 }
-.header .headcontent .imagekuang {
-  margin-top: 55rpx;
+.header .headcontent .wenhouyu {
+  position: fixed;
+  top: 0rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  left: 60rpx;
+  color: #ffffff;
+}
+.header .headcontent .tuichu {
+  position: fixed;
+  top: 0rpx;
+  left: 650rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.header .headcontent .diyihang {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 200rpx;
+  color: #000000;
+}
+.header .headcontent .diyihang .nickname {
+  line-height: 30rpx;
+}
+.header .headcontent .diyihang .vipimage {
+  margin-left: 20rpx;
+  width: 45rpx;
+  height: 35rpx;
+}
+.header .headcontent .dierhang {
+  margin-left: 200rpx;
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ff7e00;
+  width: 600rpx;
+}
+.header .headcontent .disanhang {
+  margin-top: 60rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -26,48 +69,11 @@
           justify-content: space-around;
   width: 100%;
 }
-.header .headcontent .imagekuang .banimage {
+.header .headcontent .disanhang .banimage {
   width: 200rpx;
   height: 100rpx;
 }
-.header .headcontent .wenhouyu {
-  position: fixed;
-  top: 0rpx;
-  height: 80rpx;
-  line-height: 50rpx;
-  font-size: 28rpx;
-  left: 60rpx;
-  color: #ffffff;
-}
-.header .headercontent0 {
-  width: 100%;
-  margin-left: 200rpx;
-  color: #333;
-  font-size: 28rpx;
-}
-.header .headercontent0 .headercontent3 {
-  margin-left: 30rpx;
-  width: 45rpx;
-  height: 35rpx;
-}
-.header .headercontent1 {
-  margin-left: 200rpx;
-  margin-top: 20rpx;
-  font-size: 26rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  color: #ff7e00;
-}
-.header .headercontent1 .headercontent2 {
-  margin-left: 50rpx;
-  color: #000000;
-}
-.header .headercontent1 .headercontent2 .jifen {
-  color: #ff7e00;
-}
-.userinfo-avatar {
+.headimgurlkuang {
   position: fixed;
   top: 50rpx;
   left: 60rpx;
@@ -76,7 +82,7 @@
   height: 150rpx;
   border-radius: 10rpx;
 }
-.userinfo-avatar .avatarUrl {
+.headimgurlkuang .headimgurl {
   width: 150rpx;
   height: 150rpx;
 }

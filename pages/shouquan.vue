@@ -1,92 +1,79 @@
 <template>
-  <view class="shouquan">
-    <image class="authorize-icon" src="../static/authorize.png"></image>
-    <view class="auth-item">恋爱联盟申请获取以下权限：</view>
-    <view class="auth-item">获取你的公开信息（头像、昵称等）</view>
-    <view class="btn-authorize">
-      <button open-type="getUserInfo" type="primary" lang="zh_CN" bindgetuserinfo="onGotUserInfo">授权</button>
-    </view>
-  </view>
+	<view class="shouquan">
+		<view class="denglu">请先登录</view>
+		<image class="authorize-icon" src="../static/weixin.png" @click="Login" />
+	</view>
 </template>
 
 <script>
-  import api from 'common/api';
-  import tip from 'common/tip';
-  export default {
-    methods: {
-      async onGotUserInfo(e) {
-        if (e.detail.errMsg == 'getUserInfo:ok') {
-          let userInfores = await uni.getUserInfo();
-          if (userInfores.errMsg == 'getUserInfo:ok') {
-            try {
-              let system = uni.getStorageSync('system');
-              let options = uni.getStorageSync('options');
-              const loginres = await uni.login();
-              const rlt = await api.getUnionid({
-                js_code: loginres.code,
-                userinfo: userInfores.userInfo,
-                system: system,
-                options: options,
-                encryptedData: userInfores.encryptedData,
-                jiemiiv: userInfores.iv,
-              })
-              uni.setStorageSync('userInfo', userInfores.userInfo);
-              if (rlt.data.unionid) {
-                let data = rlt.data;
-                if (data.unionid) {
-                  uni.setStorageSync('unionid', data.unionid);
-                  uni.navigateBack({
-                    delta: 1
-                  })
-                } else {
-                  uni.showModal({
-                    title: '系统有误',
-                    content: '授权失败'
-                  })
-                }
-              }
-            } catch (err) {
-              uni.showModal({
-                title: '系统有误',
-                content: '授权失败'
-              })
-            }
-          }
-        } else {
-          uni.showModal({
-            title: '友情提示',
-            content: '尊敬的用户，为确保对您的服务质量，请允许我们获取您的公开信息',
-          })
-        }
-      }
-    },
-    onShareAppMessage() {
-      return {
-        title: '恋爱联盟',
-        path: '/pages/home',
-      };
-    }
-  }
+	import api from 'common/api';
+	import tip from 'common/tip';
+	export default {
+		methods: {
+			async getAppunionid(e) {
+				const json = await api.getAppunionid({
+					code: e.code,
+				});
+				uni.setStorageSync('unionid', json.data.unionid);
+				uni.setStorageSync('token', json.data.token);
+				uni.setStorageSync('userinfo', json.data.userinfo);
+				uni.switchTab({
+					url: "/pages/home"
+				})
+			},
+			async Login() {
+				var all;
+				var Service;
+				plus.oauth.getServices((Services) => {
+					all = Services
+					Object.keys(all).some((key) => {
+						if (all[key].id == 'weixin') {
+							Service = all[key]
+						}
+					})
+					Service.authorize((e) => {
+						this.getAppunionid(e);
+					}, function(e) {
+						plus.nativeUI.alert("尊敬的用户，为确保对您的服务质量，请允许我们获取您的公开信息");
+					});
+				}, function(err) {
+					plus.nativeUI.alert("尊敬的用户，为确保对您的服务质量，请允许我们获取您的公开信息");
+				});
+			},
+		},
+		onLoad() {
+			uni.setStorageSync('unionid', '');
+			uni.setStorageSync('token', '');
+			uni.setStorageSync('userInfo', {});
+		},
+		onShareAppMessage() {
+			return {
+				title: '恋爱联盟',
+				path: '/pages/home',
+			};
+		}
+	}
 </script>
 
 <style lang="less">
-  .shouquan {
-    height: 100%;
-    background: #fff;
-    text-align: center;
-    padding-top: 100rpx;
-    .authorize-icon {
-      width: 128rpx;
-      height: 128rpx;
-      display: block;
-      margin: 0 auto;
-      padding-bottom: 10rpx;
-    }
-    .auth-item {
-      padding: 5rpx 0;
-    }
-    .btn-authorize {
-      margin: 100rpx 50rpx;
-    }
-  }
+	.shouquan {
+		.denglu {
+			width: 100%;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			padding-bottom: 500rpx;
+		}
+
+		.authorize-icon {
+			position: fixed;
+			bottom: 0;
+			left: 311rpx;
+			width: 128rpx;
+			height: 128rpx;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 300rpx;
+		}
+	}
 </style>

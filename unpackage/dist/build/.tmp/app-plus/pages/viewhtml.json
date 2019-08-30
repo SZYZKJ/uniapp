@@ -1,5 +1,13 @@
 {
   "usingComponents": {},
   "navigationBarTitleText": "网页",
-  "navigationBarTextStyle": "black"
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "default",
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FD575C",
+    "offset": "60px"
+  }
 }

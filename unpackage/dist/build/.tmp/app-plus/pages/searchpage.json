@@ -2,5 +2,12 @@
   "usingComponents": {},
   "navigationBarTitleText": "搜索",
   "navigationBarTextStyle": "black",
-  "enablePullDownRefresh": true
+  "enablePullDownRefresh": true,
+  "navigationStyle": "default",
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FD575C",
+    "offset": "60px"
+  }
 }
